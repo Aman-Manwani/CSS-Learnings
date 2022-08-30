@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling links and buttons operation</title>
+    <style>
+        .container{
+            border: 4px solid tomato;
+            border-radius: 5px;
+            background-color: rgb(147, 147, 211);
+            padding: 40px;
+            margin: 60px auto;
+            width: 750px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+            background-color: aqua;
+        }
+        a:visited{
+                background-color: black;
+        }
+        a:active{
+            background-color: rgb(255, 0, 200);
+        }
+        .btn{
+            padding: 7px;
+            margin: 8px;
+            border: 2px solid brown;
+            background-color: brown;
+            color: white;
+            font-style: italic;
+            font-weight: 800;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: blueviolet;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="item1">
+        <h2>this this my first heading </h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est dolore iste quis voluptatem tenetur minima, asperiores provident aut unde velit hic cumque incidunt sed dolores, perspiciatis dolorum voluptates accusantium id sunt nulla? Sunt, nesciunt!</p>
+        <a href="https://www.yahoo.com" target="_blank" class="btn">READ MORE</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

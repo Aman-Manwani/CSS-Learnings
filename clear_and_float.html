@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear And Float Properties</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #items{
+            background-color: rgb(12, 21, 195);
+            border: 6px solid rgb(46, 177, 74);
+            border-radius: 6px;
+            margin: 50px;
+        }
+        .item{
+            background-color: aquamarine;
+            border: 6px solid rgb(0, 255, 42);
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px;
+        }
+        body{
+            background-image: url('bmw logo.jpg');
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 800;
+            font-style: italic;
+            background-repeat: repeat-y;
+            background-position: bottom left;
+        }
+        h3{
+            text-align: center;
+        }
+        #fruits{
+            float: left;
+            width: 47%;
+        }
+        #stationary{
+            float: right;
+            width: 47%;
+        }
+        #grocery{
+            clear: both;
+            width: 97.5%;
+        }
+        p{
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+            color: rgb(228, 9, 9);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="items">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sunt numquam facere accusantium tenetur nisi ipsa enim. Dolores cum excepturi, quibusdam vel consequuntur hic accusantium ex veniam nihil quos voluptates atque, expedita ad corporis perspiciatis labore! Aperiam exercitationem veritatis fuga?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sunt numquam facere accusantium tenetur nisi ipsa enim. Dolores cum excepturi, quibusdam vel consequuntur hic accusantium ex veniam nihil quos voluptates atque, expedita ad corporis perspiciatis labore! Aperiam exercitationem veritatis fuga?</p>
+        </div>
+        <div id="grocery" class="item">
+            <h3>Grocery</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sunt numquam facere accusantium tenetur nisi ipsa enim. Dolores cum excepturi, quibusdam vel consequuntur hic accusantium ex veniam nihil quos voluptates atque, expedita ad corporis perspiciatis labore! Aperiam exercitationem veritatis fuga?</p>
+        </div>
+    </div>
+</body>
+</html>
